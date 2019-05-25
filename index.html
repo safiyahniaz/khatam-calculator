@@ -19,6 +19,7 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="home.html">Home</a></li>
         <li><a href="#second-section">By Pages</a></li>
+        <li><a href="#third-section">By Days</a></li>
         </ul>
     </div>
     </nav>
@@ -28,6 +29,7 @@
         <h5>This is a simple web app that helps you gauge how long it will take for you to khatam the Quran</h5>
         <br>
         <a class="waves-effect waves-light btn-large blue darken-2" href="#second-section">BY PAGES</a>
+        <a class="waves-effect waves-light btn-large blue darken-2" href="#third-section">BY DAYS</a>
     </div>
 
     <div id="second-section" class="center-align container">
@@ -47,6 +49,31 @@
             <br>
             <div class="card-panel teal lighten-4">
             <span class="dark-grey-text" id="result">Your results will display here after you click the 'Calculate' button.
+            </span>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<div id="third-section" class="center-align container">
+        <h1> By Days</h1>
+    <h5>Find out how many pages you need to read daily in order to khatam the Quran in a specific duration</h5>
+    <br>
+    <div class="row">
+    <div class="input-field">
+        <input id="first_name3" type="text" class="validate">
+        <label class="active" for="first_name3" type="number" class="validate">Number of days</label>
+        <span class="helper-text">Enter the number of days you wish to khatam the Quran </span>
+        <br>
+        <button class="btn waves-effect waves-light btn-large" type="submit" name="action" onclick="calculatePagesNeeded()">Calculate
+            <i class="material-icons right">send</i>
+        </button>
+        <div class="row">
+            <br>
+            <div class="card-panel teal lighten-4">
+            <span class="dark-grey-text" id="result1">Your results will display here after you click the 'Calculate' button.
             </span>
         </div>
     </div>
