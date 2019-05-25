@@ -27,7 +27,7 @@
         <h1> Khatam Calculator</h1>
         <h5>This is a simple web app that helps you gauge how long it will take for you to khatam the Quran</h5>
         <br>
-        <a class="waves-effect waves-light btn-large blue darken-2">BY PAGES</a>
+        <a class="waves-effect waves-light btn-large blue darken-2" href="#second-section">BY PAGES</a>
     </div>
 
     <div id="second-section" class="center-align container">
@@ -40,13 +40,13 @@
         <label class="active" for="first_name2" type="number" class="validate">Number of pages</label>
         <span class="helper-text">Enter the number of pages you plan to read daily</span>
         <br>
-        <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Calculate
+        <button class="btn waves-effect waves-light btn-large" type="submit" name="action" onclick="calculateDaysNeeded()">Calculate
             <i class="material-icons right">send</i>
         </button>
         <div class="row">
             <br>
             <div class="card-panel teal lighten-4">
-            <span class="dark-grey-text">Your results will display here after you click the 'Calculate' button.
+            <span class="dark-grey-text" id="result">Your results will display here after you click the 'Calculate' button.
             </span>
         </div>
     </div>
@@ -74,7 +74,7 @@
             <div class="footer-copyright">
         <div class="container">
         © 2019 Code Hero Project by Safiyah
-        <a class="grey-text text-lighten-4 right" href="https://github.com/safiyahniaz">My Github</a>
+        <a class="grey-text text-lighten-4 right" href="https://github.com/safiyahniaz" target="_blank">My Github</a>
         </div>
         </div>
         </footer>
@@ -83,7 +83,8 @@
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" target="_blank"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
     </body>
   </html>
         
