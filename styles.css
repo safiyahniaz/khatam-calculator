@@ -1,0 +1,14 @@
+#first-section {
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color: rgb(213, 230, 230);
+}
+
+#second-section {
+    padding-top: 10%;
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
