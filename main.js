@@ -15,7 +15,11 @@ function calculateDaysNeeded(){
 
     // get the element of the card
     const resultArea = document.getElementById('result')
+    let message = 'Please input a valid number of pages'
 
+    if (pageInputValue && pageInputValue > 0 && pageInputValue < 605) {
+        message = 'If you read  ' + pageInputValue + ' page(s) a day, you will complete it in about ' + niceResult + ' days.'
+    }
     // output the result on the card
-    resultArea.innerHTML = 'If you read  ' + pageInputValue + ' page(s) a day, you will complete it in about ' + niceResult + '.'
+    resultArea.innerHTML = message
 }
